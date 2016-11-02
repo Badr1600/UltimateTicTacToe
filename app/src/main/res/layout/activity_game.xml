@@ -105,16 +105,16 @@
                                         android:layout_height="wrap_content"
                                         android:id="@+id/button101"
                                         android:layout_weight="1"
+                                        android:layout_marginRight="@dimen/cells_margin"
+                                        android:layout_gravity="left|center|fill"
                                         android:layout_column="0"
-                                        android:layout_span="1"
                                         android:layout_columnWeight="0"
                                         android:layout_rowWeight="0"
                                         android:contentDescription="@string/image_button_description"
                                         android:scaleType="fitXY"
                                         android:adjustViewBounds="false"
                                         android:background="#bdbdbd"
-                                        android:src="@drawable/image_buttons_bg"
-                                        android:layout_marginRight="@dimen/cells_margin" />
+                                        android:src="@drawable/image_buttons_bg" />
 
                                     <ImageButton
                                         android:layout_width="wrap_content"
@@ -124,13 +124,14 @@
                                         android:layout_column="1"
                                         android:layout_span="1"
                                         android:layout_columnWeight="0"
+                                        android:layout_marginRight="@dimen/cells_margin"
+                                        android:layout_gravity="left|center|fill"
                                         android:layout_rowWeight="0"
                                         android:contentDescription="@string/image_button_description"
                                         android:scaleType="fitXY"
                                         android:adjustViewBounds="false"
                                         android:background="#bdbdbd"
-                                        android:src="@drawable/image_buttons_bg"
-                                        android:layout_marginRight="@dimen/cells_margin" />
+                                        android:src="@drawable/image_buttons_bg"/>
 
                                     <ImageButton
                                         android:layout_width="wrap_content"
@@ -163,7 +164,7 @@
                                         android:layout_weight="1"
                                         android:id="@+id/button104"
                                         android:layout_column="0"
-                                        android:layout_span="1"
+                                        android:layout_marginRight="@dimen/cells_margin"
                                         android:layout_gravity="left|center|fill"
                                         android:layout_columnWeight="0"
                                         android:layout_rowWeight="0"
@@ -180,6 +181,7 @@
                                         android:id="@+id/button105"
                                         android:layout_column="1"
                                         android:layout_span="1"
+                                        android:layout_marginRight="@dimen/cells_margin"
                                         android:layout_gravity="left|center|fill"
                                         android:layout_columnWeight="0"
                                         android:layout_rowWeight="0"
@@ -218,8 +220,8 @@
                                         android:layout_height="wrap_content"
                                         android:layout_weight="1"
                                         android:id="@+id/button107"
+                                        android:layout_marginRight="@dimen/cells_margin"
                                         android:layout_column="0"
-                                        android:layout_span="1"
                                         android:layout_gravity="left|center|fill"
                                         android:layout_columnWeight="0"
                                         android:layout_rowWeight="0"
@@ -236,6 +238,7 @@
                                         android:id="@+id/button108"
                                         android:layout_column="1"
                                         android:layout_span="1"
+                                        android:layout_marginRight="@dimen/cells_margin"
                                         android:layout_gravity="left|center|fill"
                                         android:layout_columnWeight="0"
                                         android:layout_rowWeight="0"
@@ -285,16 +288,16 @@
                                         android:layout_height="wrap_content"
                                         android:id="@+id/button401"
                                         android:layout_weight="1"
+                                        android:layout_gravity="left|center|fill"
                                         android:layout_column="0"
-                                        android:layout_span="1"
+                                        android:layout_marginRight="@dimen/cells_margin"
                                         android:layout_columnWeight="0"
                                         android:layout_rowWeight="0"
                                         android:contentDescription="@string/image_button_description"
                                         android:scaleType="fitXY"
                                         android:adjustViewBounds="false"
                                         android:background="#bdbdbd"
-                                        android:src="@drawable/image_buttons_bg"
-                                        android:layout_marginRight="@dimen/cells_margin" />
+                                        android:src="@drawable/image_buttons_bg" />
 
                                     <ImageButton
                                         android:layout_width="wrap_content"
@@ -310,7 +313,8 @@
                                         android:adjustViewBounds="false"
                                         android:background="#bdbdbd"
                                         android:src="@drawable/image_buttons_bg"
-                                        android:layout_marginRight="@dimen/cells_margin" />
+                                        android:layout_marginRight="@dimen/cells_margin"
+                                        android:layout_gravity="left|center|fill" />
 
                                     <ImageButton
                                         android:layout_width="wrap_content"
@@ -340,8 +344,8 @@
                                         android:layout_height="wrap_content"
                                         android:layout_weight="1"
                                         android:id="@+id/button404"
+                                        android:layout_marginRight="@dimen/cells_margin"
                                         android:layout_column="0"
-                                        android:layout_span="1"
                                         android:layout_gravity="left|center|fill"
                                         android:layout_columnWeight="0"
                                         android:layout_rowWeight="0"
@@ -358,6 +362,7 @@
                                         android:id="@+id/button405"
                                         android:layout_column="1"
                                         android:layout_span="1"
+                                        android:layout_marginRight="@dimen/cells_margin"
                                         android:layout_gravity="left|center|fill"
                                         android:layout_columnWeight="0"
                                         android:layout_rowWeight="0"
@@ -394,8 +399,8 @@
                                         android:layout_height="wrap_content"
                                         android:layout_weight="1"
                                         android:id="@+id/button407"
+                                        android:layout_marginRight="@dimen/cells_margin"
                                         android:layout_column="0"
-                                        android:layout_span="1"
                                         android:layout_gravity="left|center|fill"
                                         android:layout_columnWeight="0"
                                         android:layout_rowWeight="0"
@@ -412,6 +417,7 @@
                                         android:id="@+id/button408"
                                         android:layout_column="1"
                                         android:layout_span="1"
+                                        android:layout_marginRight="@dimen/cells_margin"
                                         android:layout_gravity="left|center|fill"
                                         android:layout_columnWeight="0"
                                         android:layout_rowWeight="0"
@@ -461,8 +467,9 @@
                                         android:layout_height="wrap_content"
                                         android:id="@+id/button701"
                                         android:layout_weight="1"
+                                        android:layout_gravity="left|center|fill"
                                         android:layout_column="0"
-                                        android:layout_span="1"
+                                        android:layout_marginRight="@dimen/cells_margin"
                                         android:layout_columnWeight="0"
                                         android:layout_rowWeight="0"
                                         android:contentDescription="@string/image_button_description"
@@ -470,7 +477,7 @@
                                         android:adjustViewBounds="false"
                                         android:background="#bdbdbd"
                                         android:src="@drawable/image_buttons_bg"
-                                        android:layout_marginRight="@dimen/cells_margin" />
+                                        />
 
                                     <ImageButton
                                         android:layout_width="wrap_content"
@@ -486,7 +493,8 @@
                                         android:adjustViewBounds="false"
                                         android:background="#bdbdbd"
                                         android:src="@drawable/image_buttons_bg"
-                                        android:layout_marginRight="@dimen/cells_margin" />
+                                        android:layout_marginRight="@dimen/cells_margin"
+                                        android:layout_gravity="left|center|fill" />
 
                                     <ImageButton
                                         android:layout_width="wrap_content"
@@ -499,6 +507,7 @@
                                         android:layout_rowWeight="0"
                                         android:contentDescription="@string/image_button_description"
                                         android:scaleType="fitXY"
+
                                         android:adjustViewBounds="false"
                                         android:background="#bdbdbd"
                                         android:src="@drawable/image_buttons_bg" />
@@ -517,7 +526,7 @@
                                         android:layout_weight="1"
                                         android:id="@+id/button704"
                                         android:layout_column="0"
-                                        android:layout_span="1"
+                                        android:layout_marginRight="@dimen/cells_margin"
                                         android:layout_gravity="left|center|fill"
                                         android:layout_columnWeight="0"
                                         android:layout_rowWeight="0"
@@ -525,6 +534,7 @@
                                         android:scaleType="fitXY"
                                         android:adjustViewBounds="false"
                                         android:background="#bdbdbd"
+
                                         android:src="@drawable/image_buttons_bg" />
 
                                     <ImageButton
@@ -534,6 +544,7 @@
                                         android:id="@+id/button705"
                                         android:layout_column="1"
                                         android:layout_span="1"
+                                        android:layout_marginRight="@dimen/cells_margin"
                                         android:layout_gravity="left|center|fill"
                                         android:layout_columnWeight="0"
                                         android:layout_rowWeight="0"
@@ -577,6 +588,7 @@
                                         android:layout_rowWeight="0"
                                         android:contentDescription="@string/image_button_description"
                                         android:scaleType="fitXY"
+                                        android:layout_marginRight="@dimen/cells_margin"
                                         android:adjustViewBounds="false"
                                         android:background="#bdbdbd"
                                         android:src="@drawable/image_buttons_bg" />
@@ -588,6 +600,7 @@
                                         android:id="@+id/button708"
                                         android:layout_column="1"
                                         android:layout_span="1"
+                                        android:layout_marginRight="@dimen/cells_margin"
                                         android:layout_gravity="left|center|fill"
                                         android:layout_columnWeight="0"
                                         android:layout_rowWeight="0"
@@ -655,7 +668,8 @@
                                         android:adjustViewBounds="false"
                                         android:background="#bdbdbd"
                                         android:src="@drawable/image_buttons_bg"
-                                        android:layout_marginRight="@dimen/cells_margin" />
+                                        android:layout_marginRight="@dimen/cells_margin"
+                                        android:layout_gravity="left|center|fill" />
 
                                     <ImageButton
                                         android:layout_width="wrap_content"
@@ -671,7 +685,8 @@
                                         android:adjustViewBounds="false"
                                         android:background="#bdbdbd"
                                         android:src="@drawable/image_buttons_bg"
-                                        android:layout_marginRight="@dimen/cells_margin" />
+                                        android:layout_marginRight="@dimen/cells_margin"
+                                        android:layout_gravity="left|center|fill" />
 
                                     <ImageButton
                                         android:layout_width="wrap_content"
@@ -702,6 +717,7 @@
                                         android:id="@+id/button204"
                                         android:layout_column="0"
                                         android:layout_span="1"
+                                        android:layout_marginRight="@dimen/cells_margin"
                                         android:layout_gravity="left|center|fill"
                                         android:layout_columnWeight="0"
                                         android:layout_rowWeight="0"
@@ -718,6 +734,7 @@
                                         android:id="@+id/button205"
                                         android:layout_column="1"
                                         android:layout_span="1"
+                                        android:layout_marginRight="@dimen/cells_margin"
                                         android:layout_gravity="left|center|fill"
                                         android:layout_columnWeight="0"
                                         android:layout_rowWeight="0"
@@ -756,6 +773,7 @@
                                         android:id="@+id/button207"
                                         android:layout_column="0"
                                         android:layout_span="1"
+                                        android:layout_marginRight="@dimen/cells_margin"
                                         android:layout_gravity="left|center|fill"
                                         android:layout_columnWeight="0"
                                         android:layout_rowWeight="0"
@@ -772,6 +790,7 @@
                                         android:id="@+id/button208"
                                         android:layout_column="1"
                                         android:layout_span="1"
+                                        android:layout_marginRight="@dimen/cells_margin"
                                         android:layout_gravity="left|center|fill"
                                         android:layout_columnWeight="0"
                                         android:layout_rowWeight="0"
@@ -830,7 +849,8 @@
                                         android:adjustViewBounds="false"
                                         android:background="#bdbdbd"
                                         android:src="@drawable/image_buttons_bg"
-                                        android:layout_marginRight="@dimen/cells_margin" />
+                                        android:layout_marginRight="@dimen/cells_margin"
+                                        android:layout_gravity="left|center|fill" />
 
                                     <ImageButton
                                         android:layout_width="wrap_content"
@@ -846,7 +866,8 @@
                                         android:adjustViewBounds="false"
                                         android:background="#bdbdbd"
                                         android:src="@drawable/image_buttons_bg"
-                                        android:layout_marginRight="@dimen/cells_margin" />
+                                        android:layout_marginRight="@dimen/cells_margin"
+                                        android:layout_gravity="left|center|fill" />
 
                                     <ImageButton
                                         android:layout_width="wrap_content"
@@ -878,6 +899,7 @@
                                         android:id="@+id/button504"
                                         android:layout_column="0"
                                         android:layout_span="1"
+                                        android:layout_marginRight="@dimen/cells_margin"
                                         android:layout_gravity="left|center|fill"
                                         android:layout_columnWeight="0"
                                         android:layout_rowWeight="0"
@@ -894,6 +916,7 @@
                                         android:id="@+id/button505"
                                         android:layout_column="1"
                                         android:layout_span="1"
+                                        android:layout_marginRight="@dimen/cells_margin"
                                         android:layout_gravity="left|center|fill"
                                         android:layout_columnWeight="0"
                                         android:layout_rowWeight="0"
@@ -932,6 +955,7 @@
                                         android:id="@+id/button507"
                                         android:layout_column="0"
                                         android:layout_span="1"
+                                        android:layout_marginRight="@dimen/cells_margin"
                                         android:layout_gravity="left|center|fill"
                                         android:layout_columnWeight="0"
                                         android:layout_rowWeight="0"
@@ -948,6 +972,7 @@
                                         android:id="@+id/button508"
                                         android:layout_column="1"
                                         android:layout_span="1"
+                                        android:layout_marginRight="@dimen/cells_margin"
                                         android:layout_gravity="left|center|fill"
                                         android:layout_columnWeight="0"
                                         android:layout_rowWeight="0"
@@ -1006,7 +1031,8 @@
                                         android:adjustViewBounds="false"
                                         android:background="#bdbdbd"
                                         android:src="@drawable/image_buttons_bg"
-                                        android:layout_marginRight="@dimen/cells_margin" />
+                                        android:layout_marginRight="@dimen/cells_margin"
+                                        android:layout_gravity="left|center|fill" />
 
                                     <ImageButton
                                         android:layout_width="wrap_content"
@@ -1022,7 +1048,8 @@
                                         android:adjustViewBounds="false"
                                         android:background="#bdbdbd"
                                         android:src="@drawable/image_buttons_bg"
-                                        android:layout_marginRight="@dimen/cells_margin" />
+                                        android:layout_marginRight="@dimen/cells_margin"
+                                        android:layout_gravity="left|center|fill" />
 
                                     <ImageButton
                                         android:layout_width="wrap_content"
@@ -1054,6 +1081,7 @@
                                         android:id="@+id/button804"
                                         android:layout_column="0"
                                         android:layout_span="1"
+                                        android:layout_marginRight="@dimen/cells_margin"
                                         android:layout_gravity="left|center|fill"
                                         android:layout_columnWeight="0"
                                         android:layout_rowWeight="0"
@@ -1070,6 +1098,7 @@
                                         android:id="@+id/button805"
                                         android:layout_column="1"
                                         android:layout_span="1"
+                                        android:layout_marginRight="@dimen/cells_margin"
                                         android:layout_gravity="left|center|fill"
                                         android:layout_columnWeight="0"
                                         android:layout_rowWeight="0"
@@ -1108,6 +1137,7 @@
                                         android:id="@+id/button807"
                                         android:layout_column="0"
                                         android:layout_span="1"
+                                        android:layout_marginRight="@dimen/cells_margin"
                                         android:layout_gravity="left|center|fill"
                                         android:layout_columnWeight="0"
                                         android:layout_rowWeight="0"
@@ -1124,6 +1154,7 @@
                                         android:id="@+id/button808"
                                         android:layout_column="1"
                                         android:layout_span="1"
+                                        android:layout_marginRight="@dimen/cells_margin"
                                         android:layout_gravity="left|center|fill"
                                         android:layout_columnWeight="0"
                                         android:layout_rowWeight="0"
@@ -1191,7 +1222,8 @@
                                         android:adjustViewBounds="false"
                                         android:background="#bdbdbd"
                                         android:src="@drawable/image_buttons_bg"
-                                        android:layout_marginRight="@dimen/cells_margin" />
+                                        android:layout_marginRight="@dimen/cells_margin"
+                                        android:layout_gravity="left|center|fill" />
 
                                     <ImageButton
                                         android:layout_width="wrap_content"
@@ -1207,7 +1239,8 @@
                                         android:adjustViewBounds="false"
                                         android:background="#bdbdbd"
                                         android:src="@drawable/image_buttons_bg"
-                                        android:layout_marginRight="@dimen/cells_margin" />
+                                        android:layout_marginRight="@dimen/cells_margin"
+                                        android:layout_gravity="left|center|fill" />
 
                                     <ImageButton
                                         android:layout_width="wrap_content"
@@ -1239,6 +1272,7 @@
                                         android:id="@+id/button304"
                                         android:layout_column="0"
                                         android:layout_span="1"
+                                        android:layout_marginRight="@dimen/cells_margin"
                                         android:layout_gravity="left|center|fill"
                                         android:layout_columnWeight="0"
                                         android:layout_rowWeight="0"
@@ -1255,6 +1289,7 @@
                                         android:id="@+id/button305"
                                         android:layout_column="1"
                                         android:layout_span="1"
+                                        android:layout_marginRight="@dimen/cells_margin"
                                         android:layout_gravity="left|center|fill"
                                         android:layout_columnWeight="0"
                                         android:layout_rowWeight="0"
@@ -1293,6 +1328,7 @@
                                         android:id="@+id/button307"
                                         android:layout_column="0"
                                         android:layout_span="1"
+                                        android:layout_marginRight="@dimen/cells_margin"
                                         android:layout_gravity="left|center|fill"
                                         android:layout_columnWeight="0"
                                         android:layout_rowWeight="0"
@@ -1309,6 +1345,7 @@
                                         android:id="@+id/button308"
                                         android:layout_column="1"
                                         android:layout_span="1"
+                                        android:layout_marginRight="@dimen/cells_margin"
                                         android:layout_gravity="left|center|fill"
                                         android:layout_columnWeight="0"
                                         android:layout_rowWeight="0"
@@ -1367,7 +1404,8 @@
                                         android:adjustViewBounds="false"
                                         android:background="#bdbdbd"
                                         android:src="@drawable/image_buttons_bg"
-                                        android:layout_marginRight="@dimen/cells_margin" />
+                                        android:layout_marginRight="@dimen/cells_margin"
+                                        android:layout_gravity="left|center|fill" />
 
                                     <ImageButton
                                         android:layout_width="wrap_content"
@@ -1383,7 +1421,8 @@
                                         android:adjustViewBounds="false"
                                         android:background="#bdbdbd"
                                         android:src="@drawable/image_buttons_bg"
-                                        android:layout_marginRight="@dimen/cells_margin" />
+                                        android:layout_marginRight="@dimen/cells_margin"
+                                        android:layout_gravity="left|center|fill" />
 
                                     <ImageButton
                                         android:layout_width="wrap_content"
@@ -1415,6 +1454,7 @@
                                         android:id="@+id/button604"
                                         android:layout_column="0"
                                         android:layout_span="1"
+                                        android:layout_marginRight="@dimen/cells_margin"
                                         android:layout_gravity="left|center|fill"
                                         android:layout_columnWeight="0"
                                         android:layout_rowWeight="0"
@@ -1431,6 +1471,7 @@
                                         android:id="@+id/button605"
                                         android:layout_column="1"
                                         android:layout_span="1"
+                                        android:layout_marginRight="@dimen/cells_margin"
                                         android:layout_gravity="left|center|fill"
                                         android:layout_columnWeight="0"
                                         android:layout_rowWeight="0"
@@ -1469,6 +1510,7 @@
                                         android:id="@+id/button607"
                                         android:layout_column="0"
                                         android:layout_span="1"
+                                        android:layout_marginRight="@dimen/cells_margin"
                                         android:layout_gravity="left|center|fill"
                                         android:layout_columnWeight="0"
                                         android:layout_rowWeight="0"
@@ -1485,6 +1527,7 @@
                                         android:id="@+id/button608"
                                         android:layout_column="1"
                                         android:layout_span="1"
+                                        android:layout_marginRight="@dimen/cells_margin"
                                         android:layout_gravity="left|center|fill"
                                         android:layout_columnWeight="0"
                                         android:layout_rowWeight="0"
@@ -1543,7 +1586,8 @@
                                         android:adjustViewBounds="false"
                                         android:background="#bdbdbd"
                                         android:src="@drawable/image_buttons_bg"
-                                        android:layout_marginRight="@dimen/cells_margin" />
+                                        android:layout_marginRight="@dimen/cells_margin"
+                                        android:layout_gravity="left|center|fill" />
 
                                     <ImageButton
                                         android:layout_width="wrap_content"
@@ -1559,7 +1603,8 @@
                                         android:adjustViewBounds="false"
                                         android:background="#bdbdbd"
                                         android:src="@drawable/image_buttons_bg"
-                                        android:layout_marginRight="@dimen/cells_margin" />
+                                        android:layout_marginRight="@dimen/cells_margin"
+                                        android:layout_gravity="left|center|fill" />
 
                                     <ImageButton
                                         android:layout_width="wrap_content"
@@ -1591,6 +1636,7 @@
                                         android:id="@+id/button904"
                                         android:layout_column="0"
                                         android:layout_span="1"
+                                        android:layout_marginRight="@dimen/cells_margin"
                                         android:layout_gravity="left|center|fill"
                                         android:layout_columnWeight="0"
                                         android:layout_rowWeight="0"
@@ -1607,6 +1653,7 @@
                                         android:id="@+id/button905"
                                         android:layout_column="1"
                                         android:layout_span="1"
+                                        android:layout_marginRight="@dimen/cells_margin"
                                         android:layout_gravity="left|center|fill"
                                         android:layout_columnWeight="0"
                                         android:layout_rowWeight="0"
@@ -1645,6 +1692,7 @@
                                         android:id="@+id/button907"
                                         android:layout_column="0"
                                         android:layout_span="1"
+                                        android:layout_marginRight="@dimen/cells_margin"
                                         android:layout_gravity="left|center|fill"
                                         android:layout_columnWeight="0"
                                         android:layout_rowWeight="0"
@@ -1661,6 +1709,7 @@
                                         android:id="@+id/button908"
                                         android:layout_column="1"
                                         android:layout_span="1"
+                                        android:layout_marginRight="@dimen/cells_margin"
                                         android:layout_gravity="left|center|fill"
                                         android:layout_columnWeight="0"
                                         android:layout_rowWeight="0"

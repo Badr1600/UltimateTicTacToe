@@ -3,6 +3,9 @@ package game.tictactoe.tictactoegame.activities;
 import android.content.DialogInterface;
 import android.graphics.Typeface;
 import android.graphics.drawable.AnimationDrawable;
+import android.os.Handler;
+import android.support.v4.view.GravityCompat;
+import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -22,6 +25,7 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
 
     private TextView playerOneName;
     private TextView playerTwoName;
+    private boolean doubleBackToExitPressedOnce = false;
 
 
     private TableLayout table1;
@@ -590,5 +594,23 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
 
         // Always call the superclass so it can save the view hierarchy state
         super.onSaveInstanceState(savedInstanceState);
+    }
+
+    @Override
+    public void onBackPressed() {
+        if (doubleBackToExitPressedOnce) {
+            super.onBackPressed();
+            return;
+        } else {
+            Toast.makeText(this, "Please click BACK again to exit, Game state will reset!", Toast.LENGTH_SHORT).show();
+            doubleBackToExitPressedOnce = true;
+            new Handler().postDelayed(new Runnable() {
+
+                @Override
+                public void run() {
+                    doubleBackToExitPressedOnce = false;
+                }
+            }, 2000);
+        }
     }
 }
