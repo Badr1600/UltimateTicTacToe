@@ -4,12 +4,12 @@ import android.content.DialogInterface;
 import android.graphics.Typeface;
 import android.graphics.drawable.AnimationDrawable;
 import android.os.Handler;
-import android.support.v4.view.GravityCompat;
-import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.ImageButton;
 import android.widget.TableLayout;
 import android.widget.TextView;
@@ -591,7 +591,6 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onSaveInstanceState(Bundle savedInstanceState) {
-
         // Always call the superclass so it can save the view hierarchy state
         super.onSaveInstanceState(savedInstanceState);
     }

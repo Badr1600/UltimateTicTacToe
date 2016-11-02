@@ -16,14 +16,13 @@
             android:theme="@style/splashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
         <activity
             android:name=".activities.GameActivity"
-            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:configChanges="orientation|screenSize"
             android:label="@string/title_activity_game"
             ></activity>
     </application>
